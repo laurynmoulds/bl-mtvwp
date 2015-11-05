@@ -365,7 +365,7 @@ body {
     float: left;
     height: auto;
     position: relative;
-    width: 100%
+    width: 100%;
 }
 
 #footer,
@@ -378,11 +378,10 @@ body {
     max-width: 1000px;
     position: relative;
     width: 100%;
-    background-color: #fff;
 }
 
 #content {
-    width: 625px
+    width: 625px;
 }
 
 .page-template-template-full-width-php #main-content #content,
@@ -1816,4 +1815,3 @@ input[type=reset]:hover {
         box-shadow: none!important
     }
 }
-
