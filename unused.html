@@ -1,0 +1,15 @@
+<!-- Header social icons-->
+<div class="header-icons">
+        <?php if ($papercuts_options_db['papercuts_header_facebook_link'] != ''){ ?>
+              <a class="social-icon facebook-icon" target="_blank" href="<?php echo esc_url($papercuts_options_db['papercuts_header_facebook_link']); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon-facebook.png" alt="Facebook" /></a>
+        <?php } ?>
+        <?php if ($papercuts_options_db['papercuts_header_twitter_link'] != ''){ ?>
+              <a class="social-icon twitter-icon" target="_blank" href="<?php echo esc_url($papercuts_options_db['papercuts_header_twitter_link']); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon-twitter.png" alt="Twitter" /></a>
+        <?php } ?>
+        <?php if ($papercuts_options_db['papercuts_header_google_link'] != ''){ ?>
+              <a class="social-icon google-icon" target="_blank" href="<?php echo esc_url($papercuts_options_db['papercuts_header_google_link']); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon-google.png" alt="Google +" /></a>
+        <?php } ?>
+        <?php if ($papercuts_options_db['papercuts_header_rss_link'] != ''){ ?>
+              <a class="social-icon rss-icon" target="_blank" href="<?php echo esc_url($papercuts_options_db['papercuts_header_rss_link']); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/images/icon-rss.png" alt="RSS" /></a>
+        <?php } ?>
+      </div>

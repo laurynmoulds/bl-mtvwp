@@ -1,0 +1,72 @@
+/* form fields
+-------------------------------------------------------------- */
+
+input[type="text"],
+input[type="file"],
+input[type="password"],
+input[type="number"],
+input[type="search"],
+input[type="email"],
+input[type="url"],
+textarea,
+select {
+  background-color: white;
+  border: 1px solid #e8e8e8;
+  color: #333333;
+  line-height: normal;
+  padding: 5px;
+  width: 50%;
+}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+  width: 98%;
+}
+input[type="submit"],
+input[type="reset"] {
+  background: #75e3db;
+  border: none;
+  border-radius: 0 !important;
+  box-shadow: none;
+  color: white !important;
+  cursor: pointer;
+  font-size: 15px;
+  height: auto;
+  margin-top: 5px;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none; 
+  text-shadow: none;                  
+}
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #17c7bd; 
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;                    
+}
+.searchform-wrapper {
+  height: 31px;
+  position: relative;
+  width: 100%;                                
+}
+
+.search-no-results .searchform-wrapper {
+  margin-top: 15px;                                       
+}
+
+.searchform-wrapper .send {
+  background: @lightbrown url(images/icon-arrow-right.png) no-repeat center center;
+  border: none;
+  cursor: pointer;
+  height: 31px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 31px;
+  z-index: 20; 
+}
+.send:hover {
+  background-color: @darkbrown;
+  -webkit-transition: background-color 1s;
+  transition: background-color 1s;
+}

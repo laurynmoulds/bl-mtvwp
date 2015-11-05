@@ -1,0 +1,229 @@
+// Commenting
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  border: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  -ms-word-wrap: break-word;
+  word-wrap:     break-word;
+  line-height: 120%;
+  margin:0;                   
+}
+h1 {
+  color: black;
+  font-size: 24px;  
+}
+h2 {
+  color: #222222;
+  font-size: 20px;  
+}
+h3 {
+  color: #333333;
+  font-size: 18px;  
+}
+h4 {
+  color: #444444;
+  font-size: 16px;  
+}
+h5 {
+  color: #555555;
+  font-size: 14px;  
+}
+h6 {
+  color: #666666;
+  font-size: 13px;  
+}
+p, ul, ol, li, dl, address {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  font-size: 13px;
+  text-align: left;
+}
+ul {
+  margin-left: 16px;   
+}
+ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+}
+ol ol {
+  list-style: upper-alpha;
+}
+ol ol ol {
+  list-style: lower-roman;
+}
+ol ol ol ol {
+  list-style: lower-alpha;
+}
+dl {
+  margin-bottom: 20px;   
+}
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 5px;
+}
+strong {
+  font-weight: bold;
+}
+cite, em, i {
+  font-style: italic;
+}
+blockquote cite {
+  display: block;
+  font-style: normal;
+  text-transform: uppercase;
+}
+a {
+  color: #17c7bd;
+  text-decoration: underline;           
+}
+a:hover {
+  text-decoration: none;           
+}
+a img {
+  border: none;      
+}
+img {
+  height: auto; 
+  max-width: 100%;   
+}
+table {
+  font-size: 13px;
+  width: 100%;      
+}
+table, td, th {
+  border: 1px solid #e3e3e3;
+  border-collapse: collapse;
+  text-align: left;
+}
+td, th {
+  padding: 5px 8px;       
+}
+th {
+  background: #555555;
+  color: white;
+  font-weight: bold;   
+}
+blockquote, q { 
+  border-left: 1px solid #e3e3e3;
+  clear: both;
+  color: #333333;
+  font-style: italic;
+  margin: 0 0 20px;
+  padding-left: 10px;
+}
+address {
+  font-style: italic;        
+}
+pre {
+  margin-bottom: 20px;
+  overflow: auto;  
+}
+sup {
+  vertical-align: super;    
+}
+sub {
+  vertical-align: sub;    
+}
+iframe,
+embed {
+  clear: both;
+  width: 100%;   
+}
+hr {
+  background: #e3e3e3;
+  border: none;
+  height: 1px; 
+  margin: 15px 0;  
+}
+
+
+
+
+/* Bootstrap Overrides
+-------------------------------------------------------------- */
+@media (min-width: 1200px){
+  .container{width:980px;}
+}
+@media (min-width: 992px){
+  .container{width:960px;}
+}
+
+/* basic structure
+-------------------------------------------------------------- */
+body {
+  background: #f1f1f1;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;  
+  line-height: 150%; 
+}
+#top-navigation-wrapper,
+#wrapper-header,
+#wrapper-footer,
+#container {
+  float: left;
+  height: auto;
+  position: relative;
+  width: 100%;        
+} 
+#wrapper-header,
+#wrapper-footer {
+}
+#wrapper-header {
+}
+#wrapper-footer {
+}
+.footer-signature-content,
+.top-navigation,
+.header-content,
+.menu-box,
+#main-content,
+#footer {  
+  margin: 0 auto;
+  max-width: 1000px;
+  position: relative;
+  width: 100%; 
+} 
+#content {
+  float: left;
+  margin: 35px 0 0;
+  width: 690px;         
+}
+.page-template-template-full-width-php #main-content #content,
+.page-template-template-landing-page-php #main-content #content,
+.page-template-template-full-width-without-title-php #main-content #content {
+  width: 100% !important;                                                      
+}
+#sidebar {
+  float: right;
+  margin: 35px 0 0 25px;
+  width: 285px;         
+}
+#wrapper-footer {
+  margin-top: 10px;                
+}
+.scroll-top {
+  background: #666666 left top no-repeat url(images/scroll-top.png);
+  border: 1px solid black;
+  cursor: pointer;
+  display: block;
+  height: 29px;
+  opacity: 0.2;
+  filter: alpha(opacity=20);
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 29px;
+  z-index: 200;            
+}
+#wrapper .scroll-top:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;                             
+}
